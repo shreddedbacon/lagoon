@@ -4,8 +4,8 @@ metadata:
   name: mariadbprovider-development
 spec:
   environment: development
-  mariadb_hostname: 172.17.0.1
-  mariadb_readreplica_hostname: 172.17.0.1
+  mariadb_hostname: 172.17.0.1.xip.ip
+  mariadb_readreplica_hostname: 172.17.0.1.xip.ip
   mariadb_password: password
   mariadb_port: '3396'
   mariadb_user: root
@@ -16,8 +16,8 @@ metadata:
   name: mariadbprovider-production
 spec:
   environment: production
-  mariadb_hostname: 172.17.0.1
-  mariadb_readreplica_hostname: 172.17.0.1
+  mariadb_hostname: 172.17.0.1.xip.ip
+  mariadb_readreplica_hostname: 172.17.0.1.xip.ip
   mariadb_password: password
   mariadb_port: '3396'
   mariadb_user: root
